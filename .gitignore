@@ -63,3 +63,9 @@ crashlytics-build.properties
 *.mat
 *.prefab
 *.unity
+*.fbx
+*.asset
+*.wav
+*.wav
+*.txt
+*.tga
