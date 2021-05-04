@@ -69,3 +69,10 @@ crashlytics-build.properties
 *.wav
 *.txt
 *.tga
+*.cpp
+*.c
+*.h
+*.mm
+*.plist
+*.a
+*.assets
