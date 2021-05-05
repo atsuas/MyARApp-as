@@ -56,6 +56,7 @@
 		<type fullname="QuerySDEmotionalController" preserve="nothing"/>
 		<type fullname="QuerySDMecanimController" preserve="nothing"/>
 		<type fullname="QuerySDSoundController" preserve="nothing"/>
+		<type fullname="Raycast" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.ARFoundation">
 		<type fullname="UnityEngine.XR.ARFoundation.ARCameraBackground" preserve="nothing"/>
@@ -67,6 +68,7 @@
 		<type fullname="UnityEngine.XR.ARFoundation.ARPointCloud" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARPointCloudManager" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.ARFoundation.ARRaycastManager" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARSession" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARSessionOrigin" preserve="nothing"/>
 	</assembly>
