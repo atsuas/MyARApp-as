@@ -360,6 +360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Query-Chan-SD
       objectReference: {fileID: 0}
+    - target: {fileID: 164916, guid: ed5a181593a2a401aa30a8480e084370, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 464916, guid: ed5a181593a2a401aa30a8480e084370, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -660,6 +664,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1590074333}
   - component: {fileID: 1590074332}
+  - component: {fileID: 1590074334}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -695,6 +700,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1590074334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590074331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab0e80cee9cc1d44928bfe488dd1e2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PointCloudPrefab: {fileID: 5286465323158205647, guid: 0774431520dfe44e2bc5691a46d8b5b8,
+    type: 3}
 --- !u!1 &1761686370
 GameObject:
   m_ObjectHideFlags: 0
