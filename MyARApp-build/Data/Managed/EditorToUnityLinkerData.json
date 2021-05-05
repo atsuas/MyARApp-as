@@ -217,8 +217,26 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LineRenderer",
+            "fullManagedTypeName": "UnityEngine.LineRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "SkinnedMeshRenderer",
             "fullManagedTypeName": "UnityEngine.SkinnedMeshRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshRenderer",
+            "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity"
@@ -229,6 +247,15 @@
             "nativeClass": "AudioBehaviour",
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshCollider",
+            "fullManagedTypeName": "UnityEngine.MeshCollider",
+            "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity"
             ]
@@ -301,6 +328,15 @@
             "nativeClass": "LightmapSettings",
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystem",
+            "fullManagedTypeName": "UnityEngine.ParticleSystem",
+            "moduleName": "ParticleSystem",
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity"
             ]
@@ -406,6 +442,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Collider",
+            "fullManagedTypeName": "UnityEngine.Collider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioSource",
             "fullManagedTypeName": "UnityEngine.AudioSource",
             "moduleName": "Audio",
@@ -477,6 +522,24 @@
             ]
         },
         {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshFilter",
+            "fullManagedTypeName": "UnityEngine.MeshFilter",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystemRenderer",
+            "fullManagedTypeName": "UnityEngine.ParticleSystemRenderer",
+            "moduleName": "ParticleSystem",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "DebugMessage",
@@ -522,6 +585,48 @@
             "managedAssemblyName": "Unity.XR.ARFoundation.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARInputManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPlane",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPlaneManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPointCloud",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPointCloudManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer",
             "moduleName": "",
             "usedInScenes": []
         },
