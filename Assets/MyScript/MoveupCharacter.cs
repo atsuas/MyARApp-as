@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class MoveupCharacter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private float speed = 0.1f; //キャラクターが移動する速さ
 
-    // Update is called once per frame
     void Update()
     {
-        
+        //キャラクターが箱から出たら停止する
+        if (transform.localPosition.y < 0f)
+        {
+            //上方向に移動させる
+            transform.localPosition += transform.up * speed * Time.deltaTime;
+        }
     }
 }
