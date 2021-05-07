@@ -253,6 +253,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "BoxCollider",
+            "fullManagedTypeName": "UnityEngine.BoxCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Canvas",
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
@@ -540,6 +549,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "MoveupCharacter",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "QuerySDEmotionalController",
             "moduleName": "",
             "usedInScenes": []
@@ -646,6 +662,20 @@
             "managedAssemblyName": "Unity.XR.ARFoundation.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARSessionOrigin",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARTrackedImageManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.ARSubsystems.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary",
             "moduleName": "",
             "usedInScenes": []
         },
