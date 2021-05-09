@@ -14,15 +14,15 @@ public class ImageManager : MonoBehaviour
 
     void Start()
     {
-        //GameObjectにアタッチされているARTrackedImageManagerを取得
+        //GameObject にアタッチされている ARTrackedImageManager を取得
         m_TrackedImageManager = GetComponent<ARTrackedImageManager>();
 
-        //ARTrackedImageの変更時に実行する関数をセット
-        m_TrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
+        //ARTrackedImage の変更時に実行する関数をセット
+        m_TrackedImageManager.trackedImagesChanged += OnTrackedImagesChanged;
     }
 
     //ARTrackedImageの変更時に実行される関数
-    void OnTrackedImageChanged(ARTrackedImagesChangedEventArgs eventArgs)
+    void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
         //新たに追加(検知)された画像に対して実行
         foreach (var trackedImage in eventArgs.added)
@@ -33,7 +33,6 @@ public class ImageManager : MonoBehaviour
                 //検知した画像を parent にして、Prefab から GameObject を作成する
                 Instantiate(prefabs[0], trackedImage.transform);
             }
-
             //ReferenceImage の Name が"image2"の画像に対する処理
             if (trackedImage.referenceImage.name == "image2")
             {
@@ -42,5 +41,4 @@ public class ImageManager : MonoBehaviour
             }
         }
     }
-
 }

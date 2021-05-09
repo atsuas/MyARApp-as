@@ -549,7 +549,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "MoveupCharacter",
+            "fullManagedTypeName": "ImageManager",
             "moduleName": "",
             "usedInScenes": []
         },

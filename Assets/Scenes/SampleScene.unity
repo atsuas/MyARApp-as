@@ -685,7 +685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458261e1be0b74dc0a5b0a6ddd0e09d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterPrefab: {fileID: 453974199517029404, guid: 3fa2b416e84b840608327dfc9f98b5da,
+  characterPrefab: {fileID: 8676172578708880124, guid: 2c5fa069686c14f11b3d2270dfc5b2ad,
     type: 3}
 --- !u!114 &1590074337
 MonoBehaviour:
@@ -706,7 +706,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590074331}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
@@ -721,7 +721,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590074331}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bdcb9e086bd14b1797c9a2b4e6fb721, type: 3}
   m_Name: 

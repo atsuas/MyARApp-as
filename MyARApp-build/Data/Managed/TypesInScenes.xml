@@ -53,7 +53,7 @@
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="DebugMessage" preserve="nothing"/>
-		<type fullname="MoveupCharacter" preserve="nothing"/>
+		<type fullname="ImageManager" preserve="nothing"/>
 		<type fullname="QuerySDEmotionalController" preserve="nothing"/>
 		<type fullname="QuerySDMecanimController" preserve="nothing"/>
 		<type fullname="QuerySDSoundController" preserve="nothing"/>
