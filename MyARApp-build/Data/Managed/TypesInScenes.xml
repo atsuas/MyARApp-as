@@ -54,10 +54,12 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="DebugMessage" preserve="nothing"/>
 		<type fullname="ImageManager" preserve="nothing"/>
+		<type fullname="MaleTPPrefabMaker" preserve="nothing"/>
 		<type fullname="QuerySDEmotionalController" preserve="nothing"/>
 		<type fullname="QuerySDMecanimController" preserve="nothing"/>
 		<type fullname="QuerySDSoundController" preserve="nothing"/>
 		<type fullname="Raycast" preserve="nothing"/>
+		<type fullname="poses" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.ARFoundation">
 		<type fullname="UnityEngine.XR.ARFoundation.ARCameraBackground" preserve="nothing"/>

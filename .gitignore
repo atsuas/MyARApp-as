@@ -76,3 +76,8 @@ crashlytics-build.properties
 *.plist
 *.a
 *.assets
+*.pdf
+*.anim
+*.controller
+*.exr
+*.resS
